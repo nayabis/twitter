@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe TweetsController, type: :controller do
+RSpec.describe Api::V1::TweetsController, type: :controller do
 
   describe "index" do
 

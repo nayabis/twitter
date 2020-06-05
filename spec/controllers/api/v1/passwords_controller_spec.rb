@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe PasswordsController, type: :controller do
+RSpec.describe Api::V1::PasswordsController, type: :controller do
 	
 	describe "forgot" do
 		before(:each) do

@@ -4,14 +4,14 @@ RSpec.describe "Sessions", type: :request do
 
   describe "POST /create" do
     it "returns http success" do
-      post "/login"
+      post "/api/v1/login"
       expect(response).to have_http_status(:success)
     end
   end
 
   describe "DELETE /logout" do
     it "returns http success" do
-      delete "/log_out"
+      delete "/api/v1/log_out"
       expect(response).to have_http_status(:success)
     end
   end

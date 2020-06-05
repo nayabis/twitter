@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe RegistrationsController, type: :controller do
+RSpec.describe Api::V1::RegistrationsController, type: :controller do
 
 	describe 'create' do
 
