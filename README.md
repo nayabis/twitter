@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tweet Management System(Api):
 
-Things you may want to cover:
+* Ruby version: 2.7.1
+* Rails Version: Rails 6
 
-* Ruby version
+Apis: 
 
-* System dependencies
+ * post: http://localhost:3000/create_tweet
 
-* Configuration
+ * put: http://localhost:3000/update_tweet/:id
 
-* Database creation
+ * delete: http://localhost:3000/delete_tweet
 
-* Database initialization
+ * get: http://localhost:3000/tweets
 
-* How to run the test suite
+ * post: http://localhost:3000/sign_up
 
-* Services (job queues, cache servers, search engines, etc.)
+ * post: http://localhost:3000/login
 
-* Deployment instructions
+ * delete: http://localhost:3000/log_out
 
-* ...
+ * post: http://localhost:3000/password/forgot
+
+ * post: http://localhost:3000/password/reset
+ 
+
+Description: 
+
+A non-admin user can log in and post a tweet. Every other users in his organization can be able to view the tweets
+
+Only admin and owner of the tweet can be able to edit or delete the post created by the owner.
